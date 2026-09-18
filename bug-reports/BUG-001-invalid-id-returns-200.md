@@ -25,4 +25,4 @@
 - Тело ответа: `{}`
 
 ## Attachments
-- Скриншот: `screenshots/screenshot-tc-005-get-post-invalid-id.png`
+- Скриншот: [screenshot-tc-005-get-post-invalid-id.png](screenshots/screenshot-tc-005-get-post-invalid-id.png)
