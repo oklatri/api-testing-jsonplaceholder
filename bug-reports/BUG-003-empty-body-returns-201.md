@@ -25,4 +25,4 @@
 - Тело ответа: `{"id": 101}`
 
 ## Attachments
-- Скриншот: `screenshots/screenshot-tc-008-post-empty-body.png`
+- [Скриншот TC-008](../screenshots/screenshot-tc-008-post-empty-body.png)
