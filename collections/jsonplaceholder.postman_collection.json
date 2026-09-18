@@ -9,7 +9,7 @@
   },
   "item": [
     {
-      "name": "https://jsonplaceholder.typicode.com/posts/1",
+      "name": "DELETE post",
       "request": {
         "method": "DELETE",
         "header": [],
@@ -30,7 +30,7 @@
       "response": []
     },
     {
-      "name": "https://jsonplaceholder.typicode.com/posts",
+      "name": "GET all posts",
       "request": {
         "method": "GET",
         "header": [],
@@ -50,7 +50,7 @@
       "response": []
     },
     {
-      "name": "https://jsonplaceholder.typicode.com/posts/1",
+      "name": "GET post by ID",
       "request": {
         "method": "GET",
         "header": [],
@@ -71,7 +71,7 @@
       "response": []
     },
     {
-      "name": "https://jsonplaceholder.typicode.com/posts/999",
+      "name": "GET nonexistent post",
       "request": {
         "method": "GET",
         "header": [],
@@ -92,7 +92,7 @@
       "response": []
     },
     {
-      "name": "https://jsonplaceholder.typicode.com/posts/abc",
+      "name": "GET post invalid ID",
       "request": {
         "method": "GET",
         "header": [],
@@ -113,7 +113,7 @@
       "response": []
     },
     {
-      "name": "\thttps://jsonplaceholder.typicode.com/posts/999",
+      "name": "DELETE nonexistent post",
       "request": {
         "method": "DELETE",
         "header": [],
@@ -134,7 +134,7 @@
       "response": []
     },
     {
-      "name": "https://jsonplaceholder.typicode.com/posts",
+      "name": "POST create post",
       "request": {
         "method": "POST",
         "header": [],
@@ -163,7 +163,7 @@
       "response": []
     },
     {
-      "name": "\thttps://jsonplaceholder.typicode.com/posts",
+      "name": "POST empty body",
       "request": {
         "method": "POST",
         "header": [],
