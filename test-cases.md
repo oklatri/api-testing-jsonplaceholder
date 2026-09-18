@@ -23,6 +23,7 @@
 - Тело: массив из 100 постов
 
 **Status:** ✅ Passed
+**Скриншот:** [screenshot-tc-001-get-all-posts.png](screenshots/screenshot-tc-001-get-all-posts.png)
 
 ---
 
@@ -48,6 +49,7 @@
 - Тело: JSON с полями `userId=1`, `id=1`, `title`, `body`
 
 **Status:** ✅ Passed
+**Скриншот:** [screenshot-tc-002-get-post-by-id.png](screenshots/screenshot-tc-002-get-post-by-id.png)
 
 ---
 
@@ -73,3 +75,4 @@
 - Тело ответа: `{}`
 
 **Status:** ✅ Passed
+**Скриншот:** [screenshot-tc-003-delete-post.png](screenshots/screenshot-tc-003-delete-post.png)
