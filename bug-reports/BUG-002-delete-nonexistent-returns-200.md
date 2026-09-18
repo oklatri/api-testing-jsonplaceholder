@@ -23,4 +23,4 @@
 - Тело ответа: `{}`
 
 ## Attachments
-- Скриншот: `screenshots/screenshot-tc-006-delete-nonexistent-post.png`
+- [Скриншот TC-006](../screenshots/screenshot-tc-006-delete-nonexistent-post.png)
