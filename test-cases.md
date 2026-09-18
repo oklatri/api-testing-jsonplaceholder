@@ -2,14 +2,14 @@
 
 ## TC-001: Получить список всех постов
 
-**Метод:** GET
+**Метод:** `GET`
 **URL:** `https://jsonplaceholder.typicode.com/posts`
 **Preconditions:** Postman открыт
 
 **Steps:**
-1. Выбрать метод GET
+1. Выбрать метод `GET`
 2. Ввести URL
-3. Нажать Send
+3. Нажать `Send`
 4. Проверить статус-код
 5. Проверить тело ответа
 
@@ -24,20 +24,18 @@
 
 **Status:** ✅ Passed
 
-**Скриншот:** [screenshot-tc-001-get-all-posts.png](screenshots/screenshot-tc-001-get-all-posts.png)
-
 ---
 
 ## TC-002: Получить пост по ID
 
-**Метод:** GET
+**Метод:** `GET`
 **URL:** `https://jsonplaceholder.typicode.com/posts/1`
 **Preconditions:** Postman открыт
 
 **Steps:**
-1. Выбрать метод GET
+1. Выбрать метод `GET`
 2. Ввести URL
-3. Нажать Send
+3. Нажать `Send`
 4. Проверить статус-код
 5. Проверить тело ответа
 
@@ -51,20 +49,18 @@
 
 **Status:** ✅ Passed
 
-**Скриншот:** [screenshot-tc-002-get-post-by-id.png](screenshots/screenshot-tc-002-get-post-by-id.png)
-
 ---
 
 ## TC-003: Удалить пост
 
-**Метод:** DELETE
+**Метод:** `DELETE`
 **URL:** `https://jsonplaceholder.typicode.com/posts/1`
 **Preconditions:** Postman открыт
 
 **Steps:**
-1. Выбрать метод DELETE
+1. Выбрать метод `DELETE`
 2. Ввести URL
-3. Нажать Send
+3. Нажать `Send`
 4. Проверить статус-код
 5. Проверить тело ответа
 
@@ -78,20 +74,18 @@
 
 **Status:** ✅ Passed
 
-**Скриншот:** [screenshot-tc-003-delete-post.png](screenshots/screenshot-tc-003-delete-post.png)
-
 ---
 
 ## TC-004: Получить несуществующий пост
 
-**Метод:** GET
+**Метод:** `GET`
 **URL:** `https://jsonplaceholder.typicode.com/posts/999`
 **Preconditions:** Postman открыт
 
 **Steps:**
-1. Выбрать метод GET
+1. Выбрать метод `GET`
 2. Ввести URL
-3. Нажать Send
+3. Нажать `Send`
 4. Проверить статус-код
 5. Проверить тело ответа
 
@@ -109,14 +103,14 @@
 
 ## TC-005: Получить пост с нечисловым ID
 
-**Метод:** GET
+**Метод:** `GET`
 **URL:** `https://jsonplaceholder.typicode.com/posts/abc`
 **Preconditions:** Postman открыт
 
 **Steps:**
-1. Выбрать метод GET
+1. Выбрать метод `GET`
 2. Ввести URL
-3. Нажать Send
+3. Нажать `Send`
 4. Проверить статус-код
 5. Проверить тело ответа
 
@@ -134,14 +128,14 @@
 
 ## TC-006: Удалить несуществующий пост
 
-**Метод:** DELETE
+**Метод:** `DELETE`
 **URL:** `https://jsonplaceholder.typicode.com/posts/999`
 **Preconditions:** Postman открыт
 
 **Steps:**
-1. Выбрать метод DELETE
+1. Выбрать метод `DELETE`
 2. Ввести URL
-3. Нажать Send
+3. Нажать `Send`
 4. Проверить статус-код
 5. Проверить тело ответа
 
@@ -159,7 +153,7 @@
 
 ## TC-007: Создать новый пост
 
-**Метод:** POST
+**Метод:** `POST`
 **URL:** `https://jsonplaceholder.typicode.com/posts`
 **Preconditions:** Postman открыт, Body → raw → JSON
 
@@ -173,11 +167,11 @@
 ```
 
 **Steps:**
-1. Выбрать метод POST
+1. Выбрать метод `POST`
 2. Ввести URL
-3. Открыть вкладку Body - raw - JSON
+3. Открыть вкладку Body → raw → JSON
 4. Вставить тело запроса
-5. Нажать Send
+5. Нажать `Send`
 6. Проверить статус-код
 7. Проверить тело ответа
 
@@ -195,7 +189,7 @@
 
 ## TC-008: Создать пост с пустым телом (негативный)
 
-**Метод:** POST
+**Метод:** `POST`
 **URL:** `https://jsonplaceholder.typicode.com/posts`
 **Preconditions:** Postman открыт, Body → raw → JSON
 
@@ -205,11 +199,11 @@
 ```
 
 **Steps:**
-1. Выбрать метод POST
+1. Выбрать метод `POST`
 2. Ввести URL
-3. Открыть вкладку Body - raw - JSON
+3. Открыть вкладку Body → raw → JSON
 4. Оставить тело пустым
-5. Нажать Send
+5. Нажать `Send`
 6. Проверить статус-код
 7. Проверить тело ответа
 
