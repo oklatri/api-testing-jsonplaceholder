@@ -1,8 +1,11 @@
 # BUG-001: `GET /posts/abc` возвращает `200 OK` вместо `400 Bad Request`
 
 **Severity:** Major
+
 **Priority:** High
+
 **Environment:** Postman v.11.68.0, https://jsonplaceholder.typicode.com
+
 **Related test case:** TC-005
 
 ## Description
