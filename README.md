@@ -22,6 +22,20 @@
 - `POST /posts` — создание поста
 - `POST /posts` (пустой body) — валидация (баг)
 
+## Автотесты в Postman
+
+В коллекции Postman **добавлены автотесты** (вкладка `Scripts` → `After response`) для 5 запросов:
+
+| Запрос | Кол-во тестов | Что проверяет |
+|---|---|---|
+| `GET all posts` | 4 | Статус 200, массив, 100 постов, время < 1000ms |
+| `GET post by ID` | 3 | Статус 200, id = 1, наличие title |
+| `POST create post` | 3 | Статус 201, новый id, title совпадает |
+| `DELETE post` | 2 | Статус 200, время < 1000ms |
+| `GET nonexistent post` | 1 | Статус 404 |
+
+**Скриншоты:** `screenshots/postman-*-tests.png`
+
 ## Результаты
 - 8 тест-кейсов
 - 5 Passed
