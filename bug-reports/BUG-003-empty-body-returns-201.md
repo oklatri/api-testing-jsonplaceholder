@@ -1,8 +1,11 @@
 # BUG-003: `POST /posts` с пустым телом возвращает `201 Created` вместо `400 Bad Request`
 
 **Severity:** Major
+
 **Priority:** High
+
 **Environment:** Postman v.11.68.0, https://jsonplaceholder.typicode.com
+
 **Related test case:** TC-008
 
 ## Description
