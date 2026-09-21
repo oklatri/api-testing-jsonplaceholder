@@ -1,8 +1,11 @@
 # BUG-002: `DELETE /posts/999` возвращает `200 OK` вместо `404 Not Found`
 
 **Severity:** Major
+
 **Priority:** High
+
 **Environment:** Postman v.11.68.0, https://jsonplaceholder.typicode.com
+
 **Related test case:** TC-006
 
 ## Description
