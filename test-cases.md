@@ -3,7 +3,9 @@
 ## TC-001: Получить список всех постов
 
 **Метод:** `GET`
+
 **URL:** `https://jsonplaceholder.typicode.com/posts`
+
 **Preconditions:** Postman открыт
 
 **Steps:**
@@ -29,7 +31,9 @@
 ## TC-002: Получить пост по ID
 
 **Метод:** `GET`
+
 **URL:** `https://jsonplaceholder.typicode.com/posts/1`
+
 **Preconditions:** Postman открыт
 
 **Steps:**
@@ -54,7 +58,9 @@
 ## TC-003: Удалить пост
 
 **Метод:** `DELETE`
+
 **URL:** `https://jsonplaceholder.typicode.com/posts/1`
+
 **Preconditions:** Postman открыт
 
 **Steps:**
@@ -79,7 +85,9 @@
 ## TC-004: Получить несуществующий пост
 
 **Метод:** `GET`
+
 **URL:** `https://jsonplaceholder.typicode.com/posts/999`
+
 **Preconditions:** Postman открыт
 
 **Steps:**
@@ -104,7 +112,9 @@
 ## TC-005: Получить пост с нечисловым ID
 
 **Метод:** `GET`
+
 **URL:** `https://jsonplaceholder.typicode.com/posts/abc`
+
 **Preconditions:** Postman открыт
 
 **Steps:**
@@ -129,7 +139,9 @@
 ## TC-006: Удалить несуществующий пост
 
 **Метод:** `DELETE`
+
 **URL:** `https://jsonplaceholder.typicode.com/posts/999`
+
 **Preconditions:** Postman открыт
 
 **Steps:**
@@ -154,7 +166,9 @@
 ## TC-007: Создать новый пост
 
 **Метод:** `POST`
+
 **URL:** `https://jsonplaceholder.typicode.com/posts`
+
 **Preconditions:** Postman открыт, Body → raw → JSON
 
 **Test data:**
@@ -190,7 +204,9 @@
 ## TC-008: Создать пост с пустым телом (негативный)
 
 **Метод:** `POST`
+
 **URL:** `https://jsonplaceholder.typicode.com/posts`
+
 **Preconditions:** Postman открыт, Body → raw → JSON
 
 **Test data:**
